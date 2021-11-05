@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="464.0" prefWidth="640.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="137.0" layoutX="27.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Logo2.png" />
+               </image>
+            </ImageView>
+            <Text fill="#3117e5" layoutX="121.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INVOICE" textAlignment="CENTER" wrappingWidth="222.7041015625">
+               <font>
+                  <Font size="57.0" />
+               </font>
+            </Text>
+            <Label layoutX="54.0" layoutY="109.0" text="Name" />
+            <Label layoutX="53.0" layoutY="138.0" text="Phone" />
+            <Label layoutX="61.0" layoutY="170.0" text="City" />
+            <Label layoutX="48.0" layoutY="200.0" text="Address" />
+            <Label layoutX="36.0" layoutY="236.0" text="Shipping instruction" />
+            <Text layoutX="155.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nguyễn Mạnh Đức" />
+            <Text layoutX="172.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0123456789" />
+            <Text layoutX="170.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hai bà Trưng" />
+            <Text layoutX="189.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hà Nội" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="358.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Cach-Lam-Avatar-Dang-Hot%20(1).jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="138.0" layoutY="283.0" text="Subtotal" />
+            <Label layoutX="138.0" layoutY="311.0" text="Shipping fees" />
+            <Label layoutX="138.0" layoutY="338.0" text="Total" />
+            <Label layoutX="280.0" layoutY="283.0" text="150,000" />
+            <Label layoutX="280.0" layoutY="311.0" text="50,000" />
+            <Label layoutX="381.0" layoutY="283.0" text="VNĐ" />
+            <Label layoutX="381.0" layoutY="311.0" text="VNĐ" />
+            <Label layoutX="274.0" layoutY="338.0" text="200,000" />
+            <Label layoutX="381.0" layoutY="338.0" text="VNĐ" />
+            <Button layoutX="253.0" layoutY="359.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Confirm Order" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

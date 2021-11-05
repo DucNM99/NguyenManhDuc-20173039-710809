@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="478.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="106.0" fitWidth="141.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Logo2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="138.0" layoutY="39.0" text="Place Rush Order" textAlignment="CENTER" textFill="#1855ee">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="117.0" text="Name" />
+            <Label layoutX="55.0" layoutY="163.0" text="Phone" />
+            <Label layoutX="56.0" layoutY="200.0" text="Provine/ City" />
+            <Label layoutX="56.0" layoutY="244.0" text="Address" />
+            <Label layoutX="18.0" layoutY="298.0" text="Shipping Instruction" />
+            <TextArea layoutX="152.0" layoutY="111.0" prefHeight="33.0" prefWidth="382.0" text="Nguyễn Mạnh Đức" />
+            <TextArea layoutX="152.0" layoutY="157.0" prefHeight="33.0" prefWidth="382.0" text="0123456789" />
+            <MenuButton layoutX="152.0" layoutY="195.0" mnemonicParsing="false" text="Hà Nội">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <TextArea layoutX="152.0" layoutY="232.0" prefHeight="45.0" prefWidth="382.0" text="Hà Nội" />
+            <TextArea layoutX="152.0" layoutY="286.0" prefHeight="45.0" prefWidth="382.0" />
+            <Button layoutX="216.0" layoutY="346.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Confirm Delivery" />
+            <Label layoutX="408.0" layoutY="50.0" text="DucNM_20173039" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

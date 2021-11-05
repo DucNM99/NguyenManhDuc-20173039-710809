@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+      <AnchorPane prefHeight="453.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="138.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Logo2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="116.0" layoutY="18.0" text="CART" textFill="#1441e4">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Label>
+            <Text layoutX="327.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DucNM_20173039" />
+            <ListView layoutX="13.0" layoutY="115.0" prefHeight="137.0" prefWidth="232.0" />
+            <ListView layoutX="245.0" layoutY="115.0" prefHeight="138.0" prefWidth="200.0" />
+            <ListView layoutX="13.0" layoutY="249.0" prefHeight="137.0" prefWidth="232.0" />
+            <ListView layoutX="245.0" layoutY="249.0" prefHeight="138.0" prefWidth="200.0" />
+            <ImageView fitHeight="67.0" fitWidth="102.0" layoutX="9.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/tải%20xuống.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="131.0" layoutY="136.0" text="Book 3" textFill="#0eda5c">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Button layoutX="75.0" layoutY="193.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Delete" />
+            <Button layoutX="143.0" layoutY="193.0" mnemonicParsing="false" style="-fx-background-color: green;" text="Rush order" />
+            <Label layoutX="310.0" layoutY="136.0" text="999" textFill="#0eda5c">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="310.0" layoutY="169.0" text="VNĐ" textFill="#0eda5c">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <MenuButton layoutX="364.0" layoutY="153.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="70.0">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <Label layoutX="457.0" layoutY="126.0" text="Subtotal:" />
+            <Label layoutX="527.0" layoutY="126.0" text="2.000 đ" />
+            <Label layoutX="457.0" layoutY="169.0" text="Amount:" />
+            <Label layoutX="527.0" layoutY="169.0" text="2.000 đ" />
+            <Button layoutX="472.0" layoutY="266.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Place Order" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

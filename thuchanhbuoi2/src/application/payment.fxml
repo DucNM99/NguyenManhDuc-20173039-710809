@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+      <AnchorPane prefHeight="445.0" prefWidth="686.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="71.0" fitWidth="176.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Logo2.png" />
+               </image>
+            </ImageView>
+            <Label depthTest="DISABLE" layoutX="105.0" layoutY="24.0" text="Payment" textAlignment="CENTER" textFill="#114fdd">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Text layoutX="341.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DucNM_20173039" />
+            <Text layoutX="51.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment method" />
+            <RadioButton layoutX="53.0" layoutY="132.0" mnemonicParsing="false" text="Credit card" />
+            <Text layoutX="316.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card Number:" />
+            <Text layoutX="316.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card holder name:" />
+            <Text layoutX="317.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expiration date:" />
+            <Text layoutX="314.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card security code:" />
+            <Button layoutX="215.0" layoutY="331.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Confirm Payment" textAlignment="CENTER" />
+            <TextField layoutX="316.0" layoutY="108.0" prefHeight="31.0" prefWidth="261.0" />
+            <TextField layoutX="316.0" layoutY="174.0" prefHeight="31.0" prefWidth="261.0" />
+            <TextField layoutX="316.0" layoutY="232.0" prefHeight="31.0" prefWidth="261.0" />
+            <TextField layoutX="316.0" layoutY="292.0" prefHeight="31.0" prefWidth="261.0" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

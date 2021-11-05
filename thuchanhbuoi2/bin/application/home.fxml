@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="122.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="74.0" fitWidth="100.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Logo2.png" />
+               </image>
+            </ImageView>
+            <TextArea layoutX="101.0" layoutY="31.0" prefHeight="41.0" prefWidth="186.0" text="DucNM_20173039" />
+            <MenuButton layoutX="300.0" layoutY="36.0" mnemonicParsing="false" text="Search">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <ImageView fitHeight="74.0" fitWidth="100.0" layoutX="453.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/kisspng-shopping-cart-software-computer-icons-shopping-icon-5b3eb003bbc062.574139001530834947769.jpg" />
+               </image>
+            </ImageView>
+            <Separator layoutX="54.0" layoutY="87.0" prefHeight="17.0" prefWidth="472.0" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane layoutY="14.0" prefHeight="232.0" prefWidth="565.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="150.0" minHeight="10.0" prefHeight="150.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="154.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="72.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Pane prefHeight="106.0" prefWidth="283.0">
+                     <children>
+                        <Text layoutX="220.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book1" />
+                        <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="31.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/tải%20xuống.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="134.0" layoutY="15.0" text="Price" />
+                        <Text layoutX="173.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70" />
+                        <Label layoutX="134.0" layoutY="40.0" text="Avail" />
+                        <Text layoutX="173.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20" />
+                        <MenuButton layoutX="131.0" layoutY="60.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="101.0">
+                          <items>
+                            <MenuItem mnemonicParsing="false" text="Action 1" />
+                            <MenuItem mnemonicParsing="false" text="Action 2" />
+                          </items>
+                        </MenuButton>
+                        <Button layoutX="141.0" layoutY="105.0" mnemonicParsing="false" text="Add to cart" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <Text layoutX="206.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book2" />
+                        <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/tải%20xuống.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="121.0" layoutY="20.0" text="Price" />
+                        <Text layoutX="169.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70" />
+                        <Label layoutX="121.0" layoutY="39.0" text="Avail" />
+                        <Text layoutX="173.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20" />
+                        <MenuButton layoutX="119.0" layoutY="60.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="101.0">
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Action 1" />
+                              <MenuItem mnemonicParsing="false" text="Action 2" />
+                           </items>
+                        </MenuButton>
+                        <Button layoutX="142.0" layoutY="105.0" mnemonicParsing="false" text="Add to cart" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                     <children>
+                        <Text layoutX="231.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <Text layoutX="209.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                     </children>
+                  </Pane>
+               </children>
+            </GridPane>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="462.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="74.0" fitWidth="125.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/Logo2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="114.0" layoutY="32.0" text="SHIPPING" textFill="#2412e8">
+               <font>
+                  <Font name="Arial" size="39.0" />
+               </font>
+            </Label>
+            <Text layoutX="372.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DucNM_20173039" />
+            <Label layoutX="53.0" layoutY="110.0" text="Name" />
+            <Label layoutX="53.0" layoutY="158.0" text="Phone" />
+            <Label layoutX="53.0" layoutY="200.0" text="Provide/City " />
+            <Label layoutX="53.0" layoutY="237.0" text="Address" />
+            <Label layoutX="53.0" layoutY="298.0" text="Shipping instruction" />
+            <Button layoutX="225.0" layoutY="338.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Confirm Delivery" />
+            <TextField layoutX="155.0" layoutY="105.0" prefHeight="31.0" prefWidth="370.0" text="Nguyễn Mạnh Đức" />
+            <TextField layoutX="155.0" layoutY="153.0" prefHeight="31.0" prefWidth="370.0" text="0123456789" />
+            <TextField layoutX="155.0" layoutY="243.0" prefHeight="31.0" prefWidth="370.0" />
+            <TextField layoutX="193.0" layoutY="293.0" prefHeight="31.0" prefWidth="331.0" />
+            <MenuButton layoutX="155.0" layoutY="195.0" mnemonicParsing="false" text="Hà Nội">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="563.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="88.0" fitWidth="107.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Logo2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="117.0" layoutY="40.0" text="Payment" textFill="#225ddd">
+               <font>
+                  <Font name="System Bold Italic" size="41.0" />
+               </font>
+            </Label>
+            <Text layoutX="368.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DucNM_20173039" />
+            <Text fill="#e41515" layoutX="78.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAYMENT RESULT!">
+               <font>
+                  <Font name="Arial Italic" size="45.0" />
+               </font>
+            </Text>
+            <Text layoutX="264.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message" wrappingWidth="72.35205078125" />
+            <Button layoutX="268.0" layoutY="278.0" mnemonicParsing="false" style="-fx-background-color: red;" text="OK" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
